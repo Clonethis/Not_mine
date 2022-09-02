@@ -4,6 +4,7 @@
 @fontFamily: 'Open Sans', sans-serif;
 @accentColor: #fff;
 @borderColor: #E9EBEE;
+@import (less) "showcase.less";
 // .swiper-wrapper {
 //     display: flex;
 //     align-items: center;
@@ -27,12 +28,13 @@ body {
 }
 
 .swiper-container {
-    width: 800px;
-    height: 200px;
-
+    // width: 800px;
+        // height: 200px;
+        display: flex;
     margin: auto;
     font-size: @fontSize;
-}
+.swiper-wrapper {
+        display: flex;
 
 .swiper-slide {
 
@@ -43,12 +45,7 @@ body {
     height: 43rem;
     padding: 2rem 1.5rem;
     text-align: center;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
 
-    // margin: auto;
-    // border: ;
     &>* {
         padding-bottom: 1rem;
         margin: auto;
@@ -82,10 +79,13 @@ body {
         overflow: visible;
 
         .banners {
-            position: absolute;
+            // position: absolute;
+            
+                display: flex;
+                justify-content: space-between;
             z-index: 8;
 
-            background-color: #008000;
+            // background-color: #008000;
             height: 2rem;
             margin-bottom: -2rem;
 
@@ -202,4 +202,6 @@ body {
         text-align: center;
     }
 
+}
+}
 }
