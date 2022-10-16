@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <ZruseniDokladuOdpoved xmlns="http://www.sukl.cz/erp/common">
+            <Doklad>
+                <ID_Dokladu>F3DFKKGAC</ID_Dokladu>
+                <DatumZruseni>2021-09-05</DatumZruseni>
+            </Doklad>
+            <ZpravaOdpoved>
+                <ID_Zpravy>B4774A0D-91C9-4ED9-B2C4-C68BDB7B2F75</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-05T21:41:07.2013371+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+                <ID_Podani>28F69344-2D0D-4AFC-9FC4-96EF3D0DE3FF</ID_Podani>
+                <Prijato>2021-09-05T21:41:06.0554472+02:00</Prijato>
+            </ZpravaOdpoved>
+        </ZruseniDokladuOdpoved>
+    </soap:Body>
+</soap:Envelope>

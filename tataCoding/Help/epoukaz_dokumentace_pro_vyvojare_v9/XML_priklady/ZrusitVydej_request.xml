@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cuep="http://www.sukl.cz/erp/cuep" xmlns:com="http://www.sukl.cz/erp/common">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cuep:ZruseniVydejeDotaz>
+            <cuep:Doklad>
+                <com:Uzivatel>669cac52-b591-4276-8815-f81a2f97192a</com:Uzivatel>
+                <com:Pracoviste>00000908777</com:Pracoviste>
+                <com:DatumZruseni>2021-09-05</com:DatumZruseni>
+                <com:DuvodZruseni>omyl</com:DuvodZruseni>
+                <cuep:ID_Dokladu>HC7ODBH89</cuep:ID_Dokladu>
+                <cuep:ID_Dokladu_EPO>CKPNPXSQQ</cuep:ID_Dokladu_EPO>
+                <cuep:Stav_EPO>PREDEPSANY</cuep:Stav_EPO>
+            </cuep:Doklad>
+            <com:Zprava>
+                <com:ID_Zpravy>9b0092e1-d441-405b-a005-a61fd47d38c7</com:ID_Zpravy>
+                <com:Verze>202201A</com:Verze>
+                <com:Odeslano>2021-09-05T22:02:24.783+02:00</com:Odeslano>
+                <com:SW_Klienta>0123456789AB</com:SW_Klienta>
+            </com:Zprava>
+        </cuep:ZruseniVydejeDotaz>
+    </soapenv:Body>
+</soapenv:Envelope>

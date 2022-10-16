@@ -1,0 +1,36 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <NacteniPredpisuZasilkovyProdejOdpoved xmlns="http://www.sukl.cz/erp/obchod">
+            <Doklad>
+                <ID_Dokladu>IUD7DAPQA</ID_Dokladu>
+                <DatumVystaveni>2021-09-03</DatumVystaveni>
+                <PlatnostDo>2021-12-12</PlatnostDo>
+                <Rodina>false</Rodina>
+                <ZP>209</ZP>
+                <Foniatricka>
+                    <ZPL xmlns="http://www.sukl.cz/erp/cuep">
+                        <Kod>5013911</Kod>
+                        <Nazev>WIDEX EVOKE E-FP 100</Nazev>
+                        <Skupina>08</Skupina>
+                        <Mnozstvi>1</Mnozstvi>
+                        <Uhrada>UHR1</Uhrada>
+                        <ID_ZP_Zdroj>123</ID_ZP_Zdroj>
+                        <ID_ZP>D9AF068C-038E-49D6-872C-461A4F5531F0</ID_ZP>
+                    </ZPL>
+                </Foniatricka>
+                <Diagnoza>M412</Diagnoza>
+                <DruhPojisteni>VEREJNE</DruhPojisteni>
+                <StavPoukazu>PREDEPSANY</StavPoukazu>
+                <StavSchvalovani>NEVYZADUJE_SCHVALENI</StavSchvalovani>
+            </Doklad>
+            <ZpravaOdpoved xmlns="http://www.sukl.cz/erp/common">
+                <ID_Zpravy>D4B752C3-A2B1-499B-BE86-54E11FE45B82</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-07T14:34:38.4840667+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+                <ID_Podani>5154A1F1-D09D-40D0-B7ED-AACEB2F7962E</ID_Podani>
+                <Prijato>2021-09-07T14:34:38.4371959+02:00</Prijato>
+            </ZpravaOdpoved>
+        </NacteniPredpisuZasilkovyProdejOdpoved>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,34 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <SeznamPredpisuZmenaStavuOdpoved xmlns="http://www.sukl.cz/erp/cuep">
+         <Doklad>
+            <ID_Dokladu>EJDBO748S</ID_Dokladu>
+            <ID_Dokladu>CKPNPXSQQ</ID_Dokladu>
+            <ID_Dokladu>JH2DVEGQ4</ID_Dokladu>
+            <ID_Dokladu>BCJXXNLAS</ID_Dokladu>
+            <ID_Dokladu>VJGSOOSQU</ID_Dokladu>
+            <ID_Dokladu>K3PLG6X8S</ID_Dokladu>
+            <ID_Dokladu>QSA3I8F82</ID_Dokladu>
+            <ID_Dokladu>G5NJ4SHAO</ID_Dokladu>
+            <ID_Dokladu>ISQ378OAK</ID_Dokladu>
+            <ID_Dokladu>TWNLJBN8Q</ID_Dokladu>
+            <ID_Dokladu>E4OF9ROAL</ID_Dokladu>
+            <ID_Dokladu>D64C72XIX</ID_Dokladu>
+            <ID_Dokladu>F88MVAUIS</ID_Dokladu>
+            <ID_Dokladu>W76WTR78E</ID_Dokladu>
+            <ID_Dokladu>TPSW7ATA4</ID_Dokladu>
+            <ID_Dokladu>INLO3F4AK</ID_Dokladu>
+            <ID_Dokladu>RJE3FG6AC</ID_Dokladu>
+            <ID_Dokladu>Q44AJC3AO</ID_Dokladu>
+         </Doklad>
+         <ZpravaOdpoved xmlns="http://www.sukl.cz/erp/common">
+            <ID_Zpravy>68216E64-8208-4256-8D7F-DE0D044B09F6</ID_Zpravy>
+            <Verze>202201A</Verze>
+            <Odeslano>2021-09-07T13:51:06.6890952+02:00</Odeslano>
+            <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+            <ID_Podani>9145041B-10B4-42CE-B6D6-69E03975B61A</ID_Podani>
+            <Prijato>2021-09-07T13:51:06.6110323+02:00</Prijato>
+         </ZpravaOdpoved>
+      </SeznamPredpisuZmenaStavuOdpoved>
+   </soap:Body>
+</soap:Envelope>

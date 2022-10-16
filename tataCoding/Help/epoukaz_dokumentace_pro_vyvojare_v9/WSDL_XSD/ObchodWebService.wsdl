@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.sukl.cz/erp/obchod" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://www.sukl.cz/erp/common" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s2="http://www.sukl.cz/erp/cuep" xmlns:s3="http://www.w3.org/2000/09/xmldsig#" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.sukl.cz/erp/obchod" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+	<wsdl:types>
+		<schema xmlns="http://www.w3.org/2001/XMLSchema">
+			<import namespace="http://www.sukl.cz/erp/obchod" schemaLocation="obchod.xsd"></import>
+		</schema>
+	</wsdl:types>
+  <wsdl:message name="NacistPoukazZasilkovyProdejSoapIn">
+    <wsdl:part name="dotaz" element="tns:NacteniPredpisuZasilkovyProdejDotaz" />
+  </wsdl:message>
+  <wsdl:message name="NacistPoukazZasilkovyProdejSoapOut">
+    <wsdl:part name="NacistPoukazZasilkovyProdejResult" element="tns:NacteniPredpisuZasilkovyProdejOdpoved" />
+  </wsdl:message>
+  <wsdl:message name="GetAppInfoSoapIn">
+    <wsdl:part name="AppInfoDotaz" element="s1:AppInfoDotaz" />
+  </wsdl:message>
+  <wsdl:message name="GetAppInfoSoapOut">
+    <wsdl:part name="GetAppInfoResult" element="s1:AppInfoOdpoved" />
+  </wsdl:message>
+  <wsdl:message name="AppPingSoapIn">
+    <wsdl:part name="AppPingDotaz" element="s1:AppPingDotaz" />
+  </wsdl:message>
+  <wsdl:message name="AppPingSoapOut">
+    <wsdl:part name="AppPingResult" element="s1:AppPingOdpoved" />
+  </wsdl:message>
+  <wsdl:message name="AppPingZEPSoapIn">
+    <wsdl:part name="AppPingZEPDotaz" element="s1:AppPingZEPDotaz" />
+  </wsdl:message>
+  <wsdl:message name="AppPingZEPSoapOut">
+    <wsdl:part name="AppPingZEPResult" element="s1:AppPingZEPOdpoved" />
+  </wsdl:message>
+  <wsdl:portType name="ObchodWebServiceSoap">
+    <wsdl:operation name="NacistPoukazZasilkovyProdej">
+      <wsdl:input message="tns:NacistPoukazZasilkovyProdejSoapIn" />
+      <wsdl:output message="tns:NacistPoukazZasilkovyProdejSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAppInfo">
+      <wsdl:input message="tns:GetAppInfoSoapIn" />
+      <wsdl:output message="tns:GetAppInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AppPing">
+      <wsdl:input message="tns:AppPingSoapIn" />
+      <wsdl:output message="tns:AppPingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AppPingZEP">
+      <wsdl:input message="tns:AppPingZEPSoapIn" />
+      <wsdl:output message="tns:AppPingZEPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ObchodWebServiceSoap" type="tns:ObchodWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NacistPoukazZasilkovyProdej">
+      <soap:operation soapAction="NacistPoukazZasilkovyProdej" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppInfo">
+      <soap:operation soapAction="GetAppInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppPing">
+      <soap:operation soapAction="AppPing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppPingZEP">
+      <soap:operation soapAction="AppPingZEP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ObchodWebServiceSoap12" type="tns:ObchodWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NacistPoukazZasilkovyProdej">
+      <soap12:operation soapAction="NacistPoukazZasilkovyProdej" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppInfo">
+      <soap12:operation soapAction="GetAppInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppPing">
+      <soap12:operation soapAction="AppPing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppPingZEP">
+      <soap12:operation soapAction="AppPingZEP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ObchodWebService">
+    <wsdl:port name="ObchodWebServiceSoap" binding="tns:ObchodWebServiceSoap">
+      <soap:address location="http://localhost:49646/Endpoints/ObchodWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ObchodWebServiceSoap12" binding="tns:ObchodWebServiceSoap12">
+      <soap12:address location="http://localhost:49646/Endpoints/ObchodWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

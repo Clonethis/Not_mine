@@ -1,0 +1,20 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <NacteniInformaceOZrusenemPoukazuOdpoved xmlns="http://www.sukl.cz/erp/common">
+            <Doklad>
+                <InformaceOZruseni>
+                    <DatumCasZruseni>2021-09-05T00:00:00</DatumCasZruseni>
+                    <DuvodZruseni>omyl</DuvodZruseni>
+                </InformaceOZruseni>
+            </Doklad>
+            <ZpravaOdpoved>
+                <ID_Zpravy>D758D22E-B8DA-49C3-A670-A56BF734D91C</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-05T21:47:36.8015998+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+                <ID_Podani>3F4B62B0-290D-48E7-B544-111ECAB9F2B0</ID_Podani>
+                <Prijato>2021-09-05T21:47:36.5359552+02:00</Prijato>
+            </ZpravaOdpoved>
+        </NacteniInformaceOZrusenemPoukazuOdpoved>
+    </soap:Body>
+</soap:Envelope>

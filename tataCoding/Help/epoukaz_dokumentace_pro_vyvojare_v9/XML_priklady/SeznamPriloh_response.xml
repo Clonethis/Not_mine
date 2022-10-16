@@ -1,0 +1,86 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <SeznamPrilohOdpoved xmlns="http://www.sukl.cz/erp/cuep">
+         <Doklad>
+            <ID_Dokladu>GJR3FTS85</ID_Dokladu>
+            <Priloha>
+               <ID_Prilohy>5E9B618D-03F4-4F61-9177-337CA283E22F</ID_Prilohy>
+               <TypPrilohy>ZDRDOK</TypPrilohy>
+               <Nazev>nazev.jpg</Nazev>
+               <Popis>popis</Popis>
+               <ZP>007</ZP>
+               <JmenoUzivatele>Zdenìk Bedla</JmenoUzivatele>
+               <RoleUzivatele>LEKAR</RoleUzivatele>
+               <PZS xmlns="http://www.sukl.cz/erp/common">
+                  <Kod>00000908777</Kod>
+                  <Nazev>Testovací pracovištì</Nazev>
+                  <IC>64946274</IC>
+                  <Telefon>neuvedeno</Telefon>
+                  <Adresa>
+                     <NazevUlice>Rubeška</NazevUlice>
+                     <CisloPopisne>215</CisloPopisne>
+                     <CisloOrientacni>1</CisloOrientacni>
+                     <NazevObce>Praha 9</NazevObce>
+                     <PSC>19000</PSC>
+                  </Adresa>
+               </PZS>
+               <Zalozeni>2021-09-07T13:39:57.466772</Zalozeni>
+            </Priloha>
+            <Priloha>
+               <ID_Prilohy>3CCF1D6E-3A58-47EC-9E6A-122FA167AF55</ID_Prilohy>
+               <TypPrilohy>ZDRDOK</TypPrilohy>
+               <Nazev>nazev.jpg</Nazev>
+               <Popis>popis</Popis>
+               <ZP>007</ZP>
+               <JmenoUzivatele>Zdenìk Bedla</JmenoUzivatele>
+               <RoleUzivatele>LEKAR</RoleUzivatele>
+               <PZS xmlns="http://www.sukl.cz/erp/common">
+                  <Kod>00000908777</Kod>
+                  <Nazev>Testovací pracovištì</Nazev>
+                  <IC>64946274</IC>
+                  <Telefon>neuvedeno</Telefon>
+                  <Adresa>
+                     <NazevUlice>Rubeška</NazevUlice>
+                     <CisloPopisne>215</CisloPopisne>
+                     <CisloOrientacni>1</CisloOrientacni>
+                     <NazevObce>Praha 9</NazevObce>
+                     <PSC>19000</PSC>
+                  </Adresa>
+               </PZS>
+               <Zalozeni>2021-09-02T10:05:42.126193</Zalozeni>
+            </Priloha>
+            <Priloha>
+               <ID_Prilohy>69865B6E-1C53-4E45-BDE3-00BAC5332CD7</ID_Prilohy>
+               <TypPrilohy>ZDRDOK</TypPrilohy>
+               <Nazev>nazev.jpg</Nazev>
+               <Popis>popis</Popis>
+               <ZP>007</ZP>
+               <JmenoUzivatele>Zdenìk Bedla</JmenoUzivatele>
+               <RoleUzivatele>LEKAR</RoleUzivatele>
+               <PZS xmlns="http://www.sukl.cz/erp/common">
+                  <Kod>00000908777</Kod>
+                  <Nazev>Testovací pracovištì</Nazev>
+                  <IC>64946274</IC>
+                  <Telefon>neuvedeno</Telefon>
+                  <Adresa>
+                     <NazevUlice>Rubeška</NazevUlice>
+                     <CisloPopisne>215</CisloPopisne>
+                     <CisloOrientacni>1</CisloOrientacni>
+                     <NazevObce>Praha 9</NazevObce>
+                     <PSC>19000</PSC>
+                  </Adresa>
+               </PZS>
+               <Zalozeni>2021-09-02T20:16:30.055421</Zalozeni>
+            </Priloha>
+         </Doklad>
+         <ZpravaOdpoved xmlns="http://www.sukl.cz/erp/common">
+            <ID_Zpravy>D3C40441-5238-45AD-942F-950F1757FD8D</ID_Zpravy>
+            <Verze>202201A</Verze>
+            <Odeslano>2021-09-07T13:58:18.1318921+02:00</Odeslano>
+            <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+            <ID_Podani>1694D58C-BFA0-4326-9048-7615603E32E7</ID_Podani>
+            <Prijato>2021-09-07T13:58:18.0225267+02:00</Prijato>
+         </ZpravaOdpoved>
+      </SeznamPrilohOdpoved>
+   </soap:Body>
+</soap:Envelope>

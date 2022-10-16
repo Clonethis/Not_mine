@@ -1,0 +1,120 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cuep="http://www.sukl.cz/erp/cuep" xmlns:com="http://www.sukl.cz/erp/common" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cuep:ZalozeniPredpisuDotaz>
+            <cuep:Doklad>
+                <cuep:DatumVystaveni>2021-09-03</cuep:DatumVystaveni>
+                <cuep:PlatnostDo>2021-12-12</cuep:PlatnostDo>
+                <cuep:Rodina>false</cuep:Rodina>
+                <cuep:Pacient>
+                    <com:Totoznost>
+                        <com:Jmeno>
+                            <com:Prijmeni>Nov·k</com:Prijmeni>
+                            <com:Jmena>Jan</com:Jmena>
+                        </com:Jmeno>
+                        <com:DatumNarozeni>1978-01-01</com:DatumNarozeni>
+                        <com:Adresa>
+                            <com:NazevUlice>Ulice</com:NazevUlice>
+                            <com:CisloPopisne>5</com:CisloPopisne>
+                            <com:CisloEvidencni>1</com:CisloEvidencni>
+                            <com:CisloOrientacni>3</com:CisloOrientacni>
+                            <com:NazevObce>Praha</com:NazevObce>
+                            <com:NazevCastiObce>Let≈?any</com:NazevCastiObce>
+                            <com:NazevOkresu>Praha</com:NazevOkresu>
+                            <com:PSC>17700</com:PSC>
+                        </com:Adresa>
+                    </com:Totoznost>
+                    <cuep:CP>7711225544</cuep:CP>
+                    <cuep:ZP>209</cuep:ZP>
+                    <cuep:Telefon>77788877781</cuep:Telefon>
+                    <cuep:Email>fsfsdfsd@sdfsdfs.sk</cuep:Email>
+                    <cuep:Veznice>Pankrac</cuep:Veznice>
+                    <cuep:Hmotnost>4</cuep:Hmotnost>
+                    <cuep:Pohlavi>M</cuep:Pohlavi>
+                    <cuep:KontaktniAdresa>Ulice, Mesto, 17700</cuep:KontaktniAdresa>
+                </cuep:Pacient>
+                <cuep:Predepisujici>
+                    <cuep:Uzivatel>669cac52-b591-4276-8815-f81a2f97192a</cuep:Uzivatel>
+                    <cuep:Oddeleni>005</cuep:Oddeleni>
+                    <cuep:ICZ>12345000</cuep:ICZ>
+                    <cuep:ICP>12345678</cuep:ICP>
+                    <cuep:PZS>00000908777</cuep:PZS>
+                    <cuep:Telefon>484551451</cuep:Telefon>
+                    <cuep:Email>5454545@sfsdfsd.sk</cuep:Email>
+                    <cuep:Odbornost>FON</cuep:Odbornost>
+                </cuep:Predepisujici>
+                <cuep:Opticka>
+                    <cuep:ZPL>
+                        <cuep:Kod>4200052</cuep:Kod>
+                        <cuep:Nazev>BR›LE DIOPTRICK… (OBRUBA+»O»KY BR›LOV… TVRZEN…, KOMBINACE SF A T”RA)</cuep:Nazev>
+                        <cuep:Skupina>09</cuep:Skupina>
+                        <cuep:Mnozstvi>1</cuep:Mnozstvi>
+                        <cuep:Uhrada>PACIENT</cuep:Uhrada>
+                        <cuep:ID_ZP_Zdroj>123456</cuep:ID_ZP_Zdroj>
+                    </cuep:ZPL>
+                    <cuep:TypPomucky>OPTCELBRYLE</cuep:TypPomucky>
+                    <cuep:Vzdalenost>DALKA</cuep:Vzdalenost>
+                    <cuep:AbsorpcniVrstva>abs.vrstva</cuep:AbsorpcniVrstva>
+                    <cuep:PraveOko>
+                        <cuep:SferaDioptrie>1</cuep:SferaDioptrie>
+                        <cuep:CylindrDP>2</cuep:CylindrDP>
+                        <cuep:CylindrOsa>3</cuep:CylindrOsa>
+                        <cuep:Addice>4</cuep:Addice>
+                        <cuep:OdchylkaVertikalni>NAHORU</cuep:OdchylkaVertikalni>
+                        <cuep:OdchylkaVertikalniPrisma>5</cuep:OdchylkaVertikalniPrisma>
+                        <cuep:OdchylkaHorizontalni>NASALNE</cuep:OdchylkaHorizontalni>
+                        <cuep:OdchylkaHorizontalniPrisma>9</cuep:OdchylkaHorizontalniPrisma>
+                        <cuep:PrismaDP>4</cuep:PrismaDP>
+                        <cuep:PrismaBasis>5</cuep:PrismaBasis>
+                    </cuep:PraveOko>
+                    <cuep:LeveOko>
+                        <cuep:SferaDioptrie>4</cuep:SferaDioptrie>
+                        <cuep:CylindrDP>5</cuep:CylindrDP>
+                        <cuep:CylindrOsa>6</cuep:CylindrOsa>
+                        <cuep:Addice>1</cuep:Addice>
+                        <cuep:OdchylkaVertikalni>NAHORU</cuep:OdchylkaVertikalni>
+                        <cuep:OdchylkaVertikalniPrisma>2</cuep:OdchylkaVertikalniPrisma>
+                        <cuep:OdchylkaHorizontalni>NASALNE</cuep:OdchylkaHorizontalni>
+                        <cuep:OdchylkaHorizontalniPrisma>5</cuep:OdchylkaHorizontalniPrisma>
+                        <cuep:PrismaDP>2</cuep:PrismaDP>
+                        <cuep:PrismaBasis>1</cuep:PrismaBasis>
+                    </cuep:LeveOko>
+                    <cuep:ProvedeniSkel>
+                        <cuep:Kod>TVRZENE</cuep:Kod>
+                    </cuep:ProvedeniSkel>
+                </cuep:Opticka>
+                <cuep:Diagnoza>M412</cuep:Diagnoza>
+                <cuep:Pozn>Pozn·mka</cuep:Pozn>
+                <cuep:DruhPojisteni>VEREJNE</cuep:DruhPojisteni>
+                <cuep:StavPoukazu>PREDEPSANY</cuep:StavPoukazu>
+                <cuep:StavSchvalovani>NEVYZADUJE_SCHVALENI</cuep:StavSchvalovani>
+            </cuep:Doklad>
+            <com:Zprava>
+                <com:ID_Zpravy>398d9ebc-869e-47bd-b5e8-16a26dce9ff1</com:ID_Zpravy>
+                <com:Verze>202201A</com:Verze>
+                <com:Odeslano>2021-09-03T11:20:13.280+02:00</com:Odeslano>
+                <com:SW_Klienta>0123456789AB</com:SW_Klienta>
+            </com:Zprava>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:SignedInfo>
+                    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/>
+                    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                    <ds:Reference URI="">
+                        <ds:Transforms>
+                            <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        </ds:Transforms>
+                        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                        <ds:DigestValue>IZpdnDQpyiKHCyJe8y9ej0ExrtLy/VcGChTbiDGGfBs=</ds:DigestValue>
+                    </ds:Reference>
+                </ds:SignedInfo>
+                <ds:SignatureValue>B7oj9D1PEF0eeSHiV5KHDV8j6xqOs15mfQGFgma9PE2ThzWMGH/3MVSYpHSMXaEcqJ+zBezEyAhs Os3YDQlmoKsnJwhBayjsB8lgg2MaAtljK2EZ2ypk7GmQoJFWK2YctPR2KX4M8l4zlN6AedqFNtrx 9jjGf0dfdV94qC1pySwuGli76qsvHFF6+dW2yLy8uxewV47dUjj572KsKo777DxISo5kn+FkvMzr FwuQHvnrgwvsuqjh16D6xpRxKXtLWWqms2IIVkP+7i3C1F38qWBtmxqPf33dcs0dWED3E1XC6i00 2k859WANElAK89psxYkvwrHrwhl6Q80jzuTPRQ==</ds:SignatureValue>
+                <ds:KeyInfo>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>2.5.4.5=#130e494341202d203130323330363930,CN=MUDr. Kate≈ôina Kl√≠mov√°,C=CZ</ds:X509SubjectName>
+                        <ds:X509Certificate>MIIFfDCCBGSgAwIBAgIEAKeLVDANBgkqhkiG9w0BAQsFADCBtzELMAkGA1UEBhMCQ1oxOjA4BgNV BAMMMUkuQ0EgLSBRdWFsaWZpZWQgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHksIDA5LzIwMDkxLTAr BgNVBAoMJFBydm7DrSBjZXJ0aWZpa2HEjW7DrSBhdXRvcml0YSwgYS5zLjE9MDsGA1UECww0SS5D QSAtIEFjY3JlZGl0ZWQgUHJvdmlkZXIgb2YgQ2VydGlmaWNhdGlvbiBTZXJ2aWNlczAeFw0xNDEy MDkwNzM4MzFaFw0xNTEyMDkwNzM4MzFaMEoxCzAJBgNVBAYTAkNaMSIwIAYDVQQDDBlNVURyLiBL YXRlxZlpbmEgS2zDrW1vdsOhMRcwFQYDVQQFEw5JQ0EgLSAxMDIzMDY5MDCCASIwDQYJKoZIhvcN AQEBBQADggEPADCCAQoCggEBAMYENLaZNpJavkMLym1CmBRdtr19W0WLroY3/Cv0BTedXPX8jAqa xJcsUN1Ma1+I02uoC1krzjPiE2ar/t8aL6CljXnZwHDw+5dEhWnFWuKsO4+Nirv6Y6tYA9k2J10o klLdd4w8q2AQXuxtSKcGbsTjM54H6KSBt0v+tP0St0i0LFUm0LQ2GmI29Vy73nhxS2nVYFBsG3GB GAbm9BdzMIVnm6kEbfMszBim0LgnTpoS9pC9FyvqusndAat4UniVyXUqQNkYueWrUMBSAausLpuw gDV2Z1B5yb3dg/ufvmXTS5CygNizVWWOCc1p/hqTjcGe7MIDs8xMAN7B+UGdfwECAwEAAaOCAfow ggH2MCQGA1UdEQQdMBugGQYJKwYBBAHcGQIBoAwMCjExOTU5NTc3NDEwDgYDVR0PAQH/BAQDAgP4 MB8GA1UdIwQYMBaAFHnL0CPpOmdwkXRP01Hi4CD94Sj7MB0GA1UdDgQWBBQ7OlFcPs2WnkT/JDeA f9gICmDg9jCB3wYDVR0gBIHXMIHUMIHRBg0rBgEEAYG4SAEBHgMBMIG/MIG8BggrBgEFBQcCAjCB rxqBrFRlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBqZSB2eWRhbiBwb2RsZSB6YWtvbmEg Q2Vza2UgcmVwdWJsaWt5IGMuIDIyNy8yMDAwIFNiLiB2IHBsYXRuZW0gem5lbmkvVGhpcyBpcyBx dWFsaWZpZWQgY2VydGlmaWNhdGUgYWNjb3JkaW5nIHRvIEN6ZWNoIEFjdCBOby4gMjI3LzIwMDAg Q29sbC4wGAYIKwYBBQUHAQMEDDAKMAgGBgQAjkYBATCBgQYDVR0fBHoweDAmoCSgIoYgaHR0cDov L3FjcmxkcDEuaWNhLmN6L3FpY2EwOS5jcmwwJqAkoCKGIGh0dHA6Ly9xY3JsZHAyLmljYS5jei9x aWNhMDkuY3JsMCagJKAihiBodHRwOi8vcWNybGRwMy5pY2EuY3ovcWljYTA5LmNybDANBgkqhkiG 9w0BAQsFAAOCAQEAjc6z01+UYz/cvykRy9Y/9JagXVeLI+b//F1ItUYatLemnRiRiwmUrf1OvaxA 62/TWeiF2a6m4vXfY1upXmEzwunEYEl7WBbrvWYWn0ZLGCQBiV0wKKqNZJNfspLrt4g3cZBfOiDD ioNbrOOOnD0CLguYmK67b6LZnrcRQ7cWphjsSzNzv5gWL7AFE1MMPKQc1vhd9cFsimyD4ZkaLvKf 1JEbLkb/1/f5eT++xNo/yNFMPeJmxy1CkAZi1HIAoPBNY2xa1N+VwhdnkdjMQA0MC6SLCOYjkjLw HGzGBJ1WQTVt0d9phGawLWw7JqfHOeowvjVyIFch9h+oBgJls2qHBQ==</ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </ds:Signature>
+        </cuep:ZalozeniPredpisuDotaz>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <SeznamPredpisuKeSchvaleniOdpoved xmlns="http://www.sukl.cz/erp/cuep">
+            <Doklad>
+                <ID_Dokladu>AIXVS57IK</ID_Dokladu>
+                <ID_Dokladu>T926IFB8K</ID_Dokladu>
+            </Doklad>
+            <ZpravaOdpoved xmlns="http://www.sukl.cz/erp/common">
+                <ID_Zpravy>1780EC72-EF8D-4B23-96FF-CC3410F2AEF6</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-07T13:46:30.1904516+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+                <ID_Podani>3FC22BEB-91B5-442A-924E-B1350C694AEB</ID_Podani>
+                <Prijato>2021-09-07T13:46:30.1101224+02:00</Prijato>
+            </ZpravaOdpoved>
+        </SeznamPredpisuKeSchvaleniOdpoved>
+    </soap:Body>
+</soap:Envelope>

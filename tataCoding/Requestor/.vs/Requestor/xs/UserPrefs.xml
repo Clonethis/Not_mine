@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{774F64D7-6BFA-4248-84C9-99D37FD326FC}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Soap.cs">
     <Files>
-      <File FileName="Program.cs" Line="37" Column="10" />
-      <File FileName="EmptyClass.cs" Line="52" Column="882" />
+      <File FileName="Program.cs" Line="67" Column="12" />
+      <File FileName="Soap.cs" Line="81" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Requestor" expanded="True">
             <Node name="Requestor" expanded="True">
-              <Node name="Soap.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -19,11 +22,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Requestor PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

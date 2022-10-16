@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cuep="http://www.sukl.cz/erp/cuep" xmlns:com="http://www.sukl.cz/erp/common">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cuep:PripojeniPrilohyDotaz>
+            <cuep:Doklad>
+                <cuep:Priloha>
+                    <cuep:ID_Dokladu>GJR3FTS85</cuep:ID_Dokladu>
+                    <cuep:TypPrilohy>ZDRDOK</cuep:TypPrilohy>
+                    <cuep:Nazev>nazev.jpg</cuep:Nazev>
+                    <cuep:Popis>popis</cuep:Popis>
+                    <cuep:ZP>007</cuep:ZP>
+                    <cuep:Soubor>YWhvag==</cuep:Soubor>
+                </cuep:Priloha>
+                <com:Pristupujici>
+                    <com:Uzivatel>669cac52-b591-4276-8815-f81a2f97192a</com:Uzivatel>
+                    <com:Pracoviste>00000908777</com:Pracoviste>
+                </com:Pristupujici>
+            </cuep:Doklad>
+            <com:Zprava>
+                <com:ID_Zpravy>ec2b9604-6feb-47d7-bf33-7a9400d367e2</com:ID_Zpravy>
+                <com:Verze>202201A</com:Verze>
+                <com:Odeslano>2021-09-07T13:40:01.380+02:00</com:Odeslano>
+                <com:SW_Klienta>0123456789AB</com:SW_Klienta>
+            </com:Zprava>
+        </cuep:PripojeniPrilohyDotaz>
+    </soapenv:Body>
+</soapenv:Envelope>

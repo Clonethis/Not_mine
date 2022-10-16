@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <soap:Fault>
+            <faultcode>soap:Server</faultcode>
+            <faultstring>P012 - Nepovolená kombinace primárního stavu ePoukazu a stavu Schválení!</faultstring>
+            <faultactor>/LekovyZaznam/Endpoints/CuepWebService.asmx</faultactor>
+            <detail>
+                <Chyba xmlns="http://www.sukl.cz/erp/201912">
+                    <Kod>P012</Kod>
+                    <Skupina>Požadována neproveditelná operace</Skupina>
+                    <Popis>Nepovolená kombinace primárního stavu ePoukazu a stavu Schválení!</Popis>
+                    <Doporuceni>Opravte stavy poukazu.</Doporuceni>
+                </Chyba>
+            </detail>
+        </soap:Fault>
+    </soap:Body>
+</soap:Envelope>

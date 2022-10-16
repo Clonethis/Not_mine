@@ -1,0 +1,101 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <NacteniPredpisuOdpoved xmlns="http://www.sukl.cz/erp/cuep">
+         <Doklad>
+            <ID_Dokladu>INLO3F4AK</ID_Dokladu>
+            <DatumVystaveni>2021-09-03</DatumVystaveni>
+            <PlatnostDo>2021-12-12</PlatnostDo>
+            <Rodina>false</Rodina>
+            <Pacient>
+               <Totoznost xmlns="http://www.sukl.cz/erp/common">
+                  <Jmeno>
+                     <Prijmeni>NOVÁK</Prijmeni>
+                     <Jmena>JAN</Jmena>
+                  </Jmeno>
+                  <Adresa>
+                     <NazevUlice>Ulice</NazevUlice>
+                     <CisloPopisne>5</CisloPopisne>
+                     <CisloEvidencni>1</CisloEvidencni>
+                     <CisloOrientacni>3</CisloOrientacni>
+                     <NazevObce>Praha</NazevObce>
+                     <NazevCastiObce>Letòany</NazevCastiObce>
+                     <NazevOkresu>Praha</NazevOkresu>
+                     <PSC>17700</PSC>
+                  </Adresa>
+               </Totoznost>
+               <CP>7711225544</CP>
+               <ZP>209</ZP>
+               <Telefon>77788877781</Telefon>
+               <Email>fsfsdfsd@sdfsdfs.sk</Email>
+               <Hmotnost>4</Hmotnost>
+               <Pohlavi>M</Pohlavi>
+               <KontaktniAdresa>Ulice, Mesto, 17700</KontaktniAdresa>
+            </Pacient>
+            <Predepisujici>
+               <Uzivatel xmlns="http://www.sukl.cz/erp/common">
+                  <Kod>669CAC52-B591-4276-8815-F81A2F97192A</Kod>
+                  <Jmeno>
+                     <Prijmeni>Bedla</Prijmeni>
+                     <Jmena>Zdenìk</Jmena>
+                  </Jmeno>
+               </Uzivatel>
+               <Oddeleni>005</Oddeleni>
+               <ICZ>12345000</ICZ>
+               <ICP>12345678</ICP>
+               <PZS xmlns="http://www.sukl.cz/erp/common">
+                  <Kod>00000908777</Kod>
+                  <Nazev>Testovací pracovištì</Nazev>
+                  <IC>64946274</IC>
+                  <Telefon>neuvedeno</Telefon>
+                  <Adresa>
+                     <NazevUlice>Rubeška</NazevUlice>
+                     <CisloPopisne>215</CisloPopisne>
+                     <CisloOrientacni>1</CisloOrientacni>
+                     <NazevObce>Praha 9</NazevObce>
+                     <PSC>19000</PSC>
+                  </Adresa>
+               </PZS>
+               <Telefon>484551451</Telefon>
+               <Email>5454545@sfsdfsd.sk</Email>
+               <Odbornost>ORP</Odbornost>
+            </Predepisujici>
+            <Revize>
+               <SpecifikacePozadavku>SpecifikacePozadavku</SpecifikacePozadavku>
+               <Zduvodneni>Zduvodneni</Zduvodneni>
+               <DatumPodani>2021-09-03</DatumPodani>
+            </Revize>
+            <Lecebna>
+               <ZPL>
+                  <Kod>5001514</Kod>
+                  <Nazev>DÌTSKÁ ORTOPEDICKÁ OBUV S PEVNÝM VEDENÍM PATY</Nazev>
+                  <Skupina>04</Skupina>
+                  <Mnozstvi>1</Mnozstvi>
+                  <Uhrada>UHR1</Uhrada>
+                  <ID_ZP_Zdroj>545454</ID_ZP_Zdroj>
+                  <ID_ZP>5DBE0C70-0FCE-4EEC-9608-D20CFA65CDAF</ID_ZP>
+               </ZPL>
+            </Lecebna>
+            <Diagnoza>M412</Diagnoza>
+            <OstatniDiagnozy>
+               <Diagnoza>M413</Diagnoza>
+            </OstatniDiagnozy>
+            <Pozn>Poznámka</Pozn>
+            <PoznamkaPredepisujiciProZP>Poznámka pro ZP</PoznamkaPredepisujiciProZP>
+            <DruhPojisteni>VEREJNE</DruhPojisteni>
+            <StavPoukazu>PREDEPSANY</StavPoukazu>
+            <StavSchvalovani>KE_SCHVALENI</StavSchvalovani>
+            <PocetPriloh>0</PocetPriloh>
+            <Zalozeni>2021-09-03T10:24:17.450576</Zalozeni>
+            <Zmena>2021-09-03T10:24:17.450576</Zmena>
+         </Doklad>
+         <ZpravaOdpoved xmlns="http://www.sukl.cz/erp/common">
+            <ID_Zpravy>713819C6-4320-49BF-AD75-8A1BF290C2DE</ID_Zpravy>
+            <Verze>202201A</Verze>
+            <Odeslano>2022-01-18T13:31:34.0680112+01:00</Odeslano>
+            <Aplikace>Informaèní systém eRecept, v. 1.39.23.28590</Aplikace>
+            <ID_Podani>13856AB6-06F3-4025-9F41-3CED517EA6B6</ID_Podani>
+            <Prijato>2022-01-18T13:31:33.8023478+01:00</Prijato>
+         </ZpravaOdpoved>
+      </NacteniPredpisuOdpoved>
+   </soap:Body>
+</soap:Envelope>

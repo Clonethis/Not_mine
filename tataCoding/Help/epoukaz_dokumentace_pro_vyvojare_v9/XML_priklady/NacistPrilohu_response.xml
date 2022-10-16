@@ -1,0 +1,41 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <NacteniPrilohyOdpoved xmlns="http://www.sukl.cz/erp/cuep">
+            <Doklad>
+                <ID_Dokladu>GJR3FTS85</ID_Dokladu>
+                <Priloha>
+                    <ID_Prilohy>3CCF1D6E-3A58-47EC-9E6A-122FA167AF55</ID_Prilohy>
+                    <TypPrilohy>ZDRDOK</TypPrilohy>
+                    <Nazev>nazev.jpg</Nazev>
+                    <Popis>popis</Popis>
+                    <ZP>007</ZP>
+                    <JmenoUzivatele>Zdenìk Bedla</JmenoUzivatele>
+                    <RoleUzivatele>LEKAR</RoleUzivatele>
+                    <PZS xmlns="http://www.sukl.cz/erp/common">
+                        <Kod>00000908777</Kod>
+                        <Nazev>Testovací pracovištì</Nazev>
+                        <IC>64946274</IC>
+                        <Telefon>neuvedeno</Telefon>
+                        <Adresa>
+                            <NazevUlice>Rubeška</NazevUlice>
+                            <CisloPopisne>215</CisloPopisne>
+                            <CisloOrientacni>1</CisloOrientacni>
+                            <NazevObce>Praha 9</NazevObce>
+                            <PSC>19000</PSC>
+                        </Adresa>
+                    </PZS>
+                    <Zalozeni>2021-09-02T10:05:42.126193</Zalozeni>
+                    <Soubor>YWhvag==</Soubor>
+                </Priloha>
+            </Doklad>
+            <ZpravaOdpoved xmlns="http://www.sukl.cz/erp/common">
+                <ID_Zpravy>4DD62800-ABF8-4035-8D72-2046437AE8B6</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-07T13:36:21.7692627+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+                <ID_Podani>9D53FC23-2FF0-43D6-9830-00E5875EEBE2</ID_Podani>
+                <Prijato>2021-09-07T13:36:21.5937653+02:00</Prijato>
+            </ZpravaOdpoved>
+        </NacteniPrilohyOdpoved>
+    </soap:Body>
+</soap:Envelope>

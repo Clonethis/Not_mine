@@ -1,0 +1,33 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <ZalozeniPredpisuOdpoved xmlns="http://www.sukl.cz/erp/cuep">
+            <Doklad>
+                <ID_Dokladu>ISQ378OAK</ID_Dokladu>
+                <ZPL>
+                    <ID_ZP_Zdroj>123</ID_ZP_Zdroj>
+                    <ID_ZP>1AAFA6F4-FCDF-463A-BF0C-B3B1219FE7F9</ID_ZP>
+                </ZPL>
+            </Doklad>
+            <Chyba xmlns="http://www.sukl.cz/erp/common">
+                <Kod>C010</Kod>
+                <Skupina>Požadována neproveditelná operace</Skupina>
+                <Popis>Jméno, pøíjmení a datum narození pacienta neodpovídá žádné osobì v Registru obyvatel!</Popis>
+                <Doporuceni>Zkontrolujte správnost zadání jména, pøíjmení a data narození pacienta a ovìøte, že jste nezamìnili jméno a pøíjmení.</Doporuceni>
+            </Chyba>
+            <Chyba xmlns="http://www.sukl.cz/erp/common">
+                <Kod>C026</Kod>
+                <Skupina>Požadována neproveditelná operace</Skupina>
+                <Popis>Pacienta není možné ztotožnit!</Popis>
+                <Doporuceni>Identitu pacienta není možné dohledat v registru obyvatel dle dostupných údajù. Ovìøte, že zadané údaje jsou správné.</Doporuceni>
+            </Chyba>
+            <ZpravaOdpoved xmlns="http://www.sukl.cz/erp/common">
+                <ID_Zpravy>A2AD5C4D-1710-4A62-A9FA-4912196D06CD</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-03T10:43:40.5486195+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.15.37739</Aplikace>
+                <ID_Podani>1E496264-4DF8-4C67-86E0-4581951EB631</ID_Podani>
+                <Prijato>2021-09-03T10:43:39.7475934+02:00</Prijato>
+            </ZpravaOdpoved>
+        </ZalozeniPredpisuOdpoved>
+    </soap:Body>
+</soap:Envelope>

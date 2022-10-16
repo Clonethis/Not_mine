@@ -1,0 +1,52 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cuep="http://www.sukl.cz/erp/cuep" xmlns:com="http://www.sukl.cz/erp/common" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cuep:ZalozeniVydejeDotaz>
+            <cuep:Doklad>
+                <cuep:DatumVydeje>2022-02-14</cuep:DatumVydeje>
+                <cuep:Vydavajici>
+                    <cuep:Uzivatel>669cac52-b591-4276-8815-f81a2f97192a</cuep:Uzivatel>
+                    <cuep:ICZ>12354787</cuep:ICZ>
+                    <cuep:Telefon>87878787</cuep:Telefon>
+                    <cuep:Vydejna>00150044311</cuep:Vydejna>
+                </cuep:Vydavajici>
+                <cuep:VZPL>
+                    <cuep:Mnozstvi>1</cuep:Mnozstvi>
+                    <cuep:Kod>5001514</cuep:Kod>
+                    <cuep:Sarze>554848484</cuep:Sarze>
+                    <cuep:ID_ZP_Zdroj>1</cuep:ID_ZP_Zdroj>
+                    <cuep:ID_ZP_EPO>860DD8EB-1898-4E3F-A6E7-4F7F6AEC11A8</cuep:ID_ZP_EPO>
+                </cuep:VZPL>
+                <cuep:Pozn>54</cuep:Pozn>
+                <cuep:ID_Dokladu_EPO>BMFWEXXA2</cuep:ID_Dokladu_EPO>
+                <cuep:StavPoukazu>PLNE_VYDANY</cuep:StavPoukazu>
+            </cuep:Doklad>
+            <com:Zprava>
+                <com:ID_Zpravy>a5206b92-88b3-4824-83a5-f49c3fb61ff1</com:ID_Zpravy>
+                <com:Verze>202201A</com:Verze>
+                <com:Odeslano>2022-02-14T15:58:06.735+01:00</com:Odeslano>
+                <com:SW_Klienta>0123456789AB</com:SW_Klienta>
+            </com:Zprava>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:SignedInfo>
+                    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/>
+                    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                    <ds:Reference URI="">
+                        <ds:Transforms>
+                            <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        </ds:Transforms>
+                        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                        <ds:DigestValue>IZpdnDQpyiKHCyJe8y9ej0ExrtLy/VcGChTbiDGGfBs=</ds:DigestValue>
+                    </ds:Reference>
+                </ds:SignedInfo>
+                <ds:SignatureValue>B7oj9D1PEF0eeSHiV5KHDV8j6xqOs15mfQGFgma9PE2ThzWMGH/3MVSYpHSMXaEcqJ+zBezEyAhs Os3YDQlmoKsnJwhBayjsB8lgg2MaAtljK2EZ2ypk7GmQoJFWK2YctPR2KX4M8l4zlN6AedqFNtrx 9jjGf0dfdV94qC1pySwuGli76qsvHFF6+dW2yLy8uxewV47dUjj572KsKo777DxISo5kn+FkvMzr FwuQHvnrgwvsuqjh16D6xpRxKXtLWWqms2IIVkP+7i3C1F38qWBtmxqPf33dcs0dWED3E1XC6i00 2k859WANElAK89psxYkvwrHrwhl6Q80jzuTPRQ==</ds:SignatureValue>
+                <ds:KeyInfo>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>2.5.4.5=#130e494341202d203130323330363930,CN=MUDr. Kateřina Klímová,C=CZ</ds:X509SubjectName>
+                        <ds:X509Certificate>MIIFfDCCBGSgAwIBAgIEAKeLVDANBgkqhkiG9w0BAQsFADCBtzELMAkGA1UEBhMCQ1oxOjA4BgNV BAMMMUkuQ0EgLSBRdWFsaWZpZWQgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHksIDA5LzIwMDkxLTAr BgNVBAoMJFBydm7DrSBjZXJ0aWZpa2HEjW7DrSBhdXRvcml0YSwgYS5zLjE9MDsGA1UECww0SS5D QSAtIEFjY3JlZGl0ZWQgUHJvdmlkZXIgb2YgQ2VydGlmaWNhdGlvbiBTZXJ2aWNlczAeFw0xNDEy MDkwNzM4MzFaFw0xNTEyMDkwNzM4MzFaMEoxCzAJBgNVBAYTAkNaMSIwIAYDVQQDDBlNVURyLiBL YXRlxZlpbmEgS2zDrW1vdsOhMRcwFQYDVQQFEw5JQ0EgLSAxMDIzMDY5MDCCASIwDQYJKoZIhvcN AQEBBQADggEPADCCAQoCggEBAMYENLaZNpJavkMLym1CmBRdtr19W0WLroY3/Cv0BTedXPX8jAqa xJcsUN1Ma1+I02uoC1krzjPiE2ar/t8aL6CljXnZwHDw+5dEhWnFWuKsO4+Nirv6Y6tYA9k2J10o klLdd4w8q2AQXuxtSKcGbsTjM54H6KSBt0v+tP0St0i0LFUm0LQ2GmI29Vy73nhxS2nVYFBsG3GB GAbm9BdzMIVnm6kEbfMszBim0LgnTpoS9pC9FyvqusndAat4UniVyXUqQNkYueWrUMBSAausLpuw gDV2Z1B5yb3dg/ufvmXTS5CygNizVWWOCc1p/hqTjcGe7MIDs8xMAN7B+UGdfwECAwEAAaOCAfow ggH2MCQGA1UdEQQdMBugGQYJKwYBBAHcGQIBoAwMCjExOTU5NTc3NDEwDgYDVR0PAQH/BAQDAgP4 MB8GA1UdIwQYMBaAFHnL0CPpOmdwkXRP01Hi4CD94Sj7MB0GA1UdDgQWBBQ7OlFcPs2WnkT/JDeA f9gICmDg9jCB3wYDVR0gBIHXMIHUMIHRBg0rBgEEAYG4SAEBHgMBMIG/MIG8BggrBgEFBQcCAjCB rxqBrFRlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBqZSB2eWRhbiBwb2RsZSB6YWtvbmEg Q2Vza2UgcmVwdWJsaWt5IGMuIDIyNy8yMDAwIFNiLiB2IHBsYXRuZW0gem5lbmkvVGhpcyBpcyBx dWFsaWZpZWQgY2VydGlmaWNhdGUgYWNjb3JkaW5nIHRvIEN6ZWNoIEFjdCBOby4gMjI3LzIwMDAg Q29sbC4wGAYIKwYBBQUHAQMEDDAKMAgGBgQAjkYBATCBgQYDVR0fBHoweDAmoCSgIoYgaHR0cDov L3FjcmxkcDEuaWNhLmN6L3FpY2EwOS5jcmwwJqAkoCKGIGh0dHA6Ly9xY3JsZHAyLmljYS5jei9x aWNhMDkuY3JsMCagJKAihiBodHRwOi8vcWNybGRwMy5pY2EuY3ovcWljYTA5LmNybDANBgkqhkiG 9w0BAQsFAAOCAQEAjc6z01+UYz/cvykRy9Y/9JagXVeLI+b//F1ItUYatLemnRiRiwmUrf1OvaxA 62/TWeiF2a6m4vXfY1upXmEzwunEYEl7WBbrvWYWn0ZLGCQBiV0wKKqNZJNfspLrt4g3cZBfOiDD ioNbrOOOnD0CLguYmK67b6LZnrcRQ7cWphjsSzNzv5gWL7AFE1MMPKQc1vhd9cFsimyD4ZkaLvKf 1JEbLkb/1/f5eT++xNo/yNFMPeJmxy1CkAZi1HIAoPBNY2xa1N+VwhdnkdjMQA0MC6SLCOYjkjLw HGzGBJ1WQTVt0d9phGawLWw7JqfHOeowvjVyIFch9h+oBgJls2qHBQ==</ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </ds:Signature>
+        </cuep:ZalozeniVydejeDotaz>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,28 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <SeznamPredpisuDleDokladuOdpoved xmlns="http://www.sukl.cz/erp/common">
+            <Doklad>
+                <Pacient>
+                    <Totoznost>
+                        <Jmeno>
+                            <Prijmeni>MRAKOMOROVÁ</Prijmeni>
+                            <Jmena>MRAÈENA</Jmena>
+                        </Jmeno>
+                        <DatumNarozeni>1971-11-26</DatumNarozeni>
+                    </Totoznost>
+                </Pacient>
+                <Predpisy>
+                    <ID_Dokladu>GBQJILV82</ID_Dokladu>
+                </Predpisy>
+            </Doklad>
+            <ZpravaOdpoved>
+                <ID_Zpravy>0A518F46-A089-4394-B0D3-993AC610C594</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-07T13:55:49.727305+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.16.33385</Aplikace>
+                <ID_Podani>5F73942E-F974-4D00-A180-D80508142BBD</ID_Podani>
+                <Prijato>2021-09-07T13:55:49.6022452+02:00</Prijato>
+            </ZpravaOdpoved>
+        </SeznamPredpisuDleDokladuOdpoved>
+    </soap:Body>
+</soap:Envelope>

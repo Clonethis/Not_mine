@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <AppPingZEPOdpoved xmlns="http://www.sukl.cz/erp/common">
+            <ZpravaOdpoved>
+                <ID_Zpravy>CD4EBB71-F286-4C1E-BF24-3EB199D480D5</ID_Zpravy>
+                <Verze>202201A</Verze>
+                <Odeslano>2021-09-03T09:13:04.2807739+02:00</Odeslano>
+                <Aplikace>Informaèní systém eRecept (TEST), v. 1.37.15.37739</Aplikace>
+                <ID_Podani>B9AE25EC-9866-40A9-BD7F-984B085A9748</ID_Podani>
+                <Prijato>2021-09-03T09:13:04.2338965+02:00</Prijato>
+            </ZpravaOdpoved>
+        </AppPingZEPOdpoved>
+    </soap:Body>
+</soap:Envelope>

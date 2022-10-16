@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cuep="http://www.sukl.cz/erp/cuep" xmlns:com="http://www.sukl.cz/erp/common">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cuep:ProvedeniSchvaleniPredpisuDotaz>
+            <cuep:Doklad>
+                <cuep:ID_Dokladu>UH3VK2EAT</cuep:ID_Dokladu>
+                <cuep:StavSchvaleni>SCHVALENY</cuep:StavSchvaleni>
+                <cuep:Stanovisko>Stanisko</cuep:Stanovisko>
+                <cuep:ZadankaZP>7777777</cuep:ZadankaZP>
+                <cuep:VydejnaICZ>12345678</cuep:VydejnaICZ>
+                <cuep:EvidencniCisloZP>12345678</cuep:EvidencniCisloZP>
+                <cuep:DatumPredbezneSchvaleni>2021-01-01</cuep:DatumPredbezneSchvaleni>
+                <cuep:DatumOmezeni>2021-01-01</cuep:DatumOmezeni>
+                <cuep:DatumVyjadreniZP>2021-01-01</cuep:DatumVyjadreniZP>
+                <cuep:PoznamkaZPProPredepisujiciho>x</cuep:PoznamkaZPProPredepisujiciho>
+                <com:Jmeno>
+                    <com:Prijmeni>Jan</com:Prijmeni>
+                    <com:Jmena>Novák</com:Jmena>
+                </com:Jmeno>
+                <cuep:ZP>007</cuep:ZP>
+                <com:Pristupujici>
+                    <com:Uzivatel>7DBBDDD2-C28E-4372-BFBA-61E80CBF36F6</com:Uzivatel>
+                    <com:Pracoviste>00000000010</com:Pracoviste>
+                </com:Pristupujici>
+            </cuep:Doklad>
+            <com:Zprava>
+                <com:ID_Zpravy>1c934613-5f53-40f5-bc9b-da76d3a3a9cd</com:ID_Zpravy>
+                <com:Verze>202201A</com:Verze>
+                <com:Odeslano>2021-09-07T13:43:39.235+02:00</com:Odeslano>
+                <com:SW_Klienta>0123456789AB</com:SW_Klienta>
+            </com:Zprava>
+        </cuep:ProvedeniSchvaleniPredpisuDotaz>
+    </soapenv:Body>
+</soapenv:Envelope>

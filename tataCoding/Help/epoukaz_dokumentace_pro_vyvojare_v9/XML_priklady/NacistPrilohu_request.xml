@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cuep="http://www.sukl.cz/erp/cuep" xmlns:com="http://www.sukl.cz/erp/common">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cuep:NacteniPrilohyDotaz>
+            <cuep:Doklad>
+                <com:Pristupujici>
+                    <com:Uzivatel>669cac52-b591-4276-8815-f81a2f97192a</com:Uzivatel>
+                    <com:Pracoviste>00000909047</com:Pracoviste>
+                </com:Pristupujici>
+                <cuep:ID_Dokladu>GJR3FTS85</cuep:ID_Dokladu>
+                <cuep:ID_Prilohy>3CCF1D6E-3A58-47EC-9E6A-122FA167AF55</cuep:ID_Prilohy>
+            </cuep:Doklad>
+            <com:Zprava>
+                <com:ID_Zpravy>9d53fc23-2ff0-43d6-9830-00e5875eebe2</com:ID_Zpravy>
+                <com:Verze>202201A</com:Verze>
+                <com:Odeslano>2021-09-07T13:36:25.952+02:00</com:Odeslano>
+                <com:SW_Klienta>0123456789AB</com:SW_Klienta>
+            </com:Zprava>
+        </cuep:NacteniPrilohyDotaz>
+    </soapenv:Body>
+</soapenv:Envelope>

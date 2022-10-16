@@ -1,0 +1,20 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:obc="http://www.sukl.cz/erp/obchod" xmlns:com="http://www.sukl.cz/erp/common">
+    <soap:Header/>
+    <soap:Body>
+        <obc:NacteniPredpisuZasilkovyProdejDotaz>
+            <obc:Doklad>
+                <com:Pristupujici>
+                    <com:Uzivatel>669cac52-b591-4276-8815-f81a2f97192a</com:Uzivatel>
+                    <com:Pracoviste>00000909047</com:Pracoviste>
+                </com:Pristupujici>
+                <obc:ID_Dokladu>IUD7DAPQA</obc:ID_Dokladu>
+            </obc:Doklad>
+            <com:Zprava>
+                <com:ID_Zpravy>5154a1f1-d09d-40d0-b7ed-aaceb2f7962e</com:ID_Zpravy>
+                <com:Verze>202201A</com:Verze>
+                <com:Odeslano>2021-09-07T14:34:42.883+02:00</com:Odeslano>
+                <com:SW_Klienta>0123456789AB</com:SW_Klienta>
+            </com:Zprava>
+        </obc:NacteniPredpisuZasilkovyProdejDotaz>
+    </soap:Body>
+</soap:Envelope>
